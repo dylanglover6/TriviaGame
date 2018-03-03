@@ -1,7 +1,7 @@
 
 var correct = 0;
 var incorrect = 0;
-var count = 40;
+var count = 35;
 var intervalId;
 var starWarsQuestions =[{
     question: "In Episode 2: Attack of the Clones, who is the 4 armed Diner owner who Obi-wan speaks to?",
@@ -49,7 +49,7 @@ $("#start-button").click(function(){
 function timer() {
 count--;
 $("#timer").html(count + " seconds left");
-$(".lightsaber-2").animate({ width: "0" }, 40000);
+$(".lightsaber-2").animate({ width: "0" }, 35000);
 if (count <= 0) {
     window.clearInterval(intervalId);
     finalScore();    
