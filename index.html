@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Star Wars Trivia Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="logo col-sm-8">
+            <img src="./assets/images/star-wars.png" class="star-wars-logo" alt="star wars logo"> <br>
+            <h1>Trivia Game</h1> <br>
+            <p>By: Dylan Glover</p>
+        </div>   
+
+        <div class="score-card col-sm-4">
+                <button id="start-button">Start</button>
+            <h2>Final Score:</h2>    
+            <div id="score-card1"></div>
+            <div id="score-card2"></div>
+            <div id="score-card3"></div>
+            <div id="score-card4"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="questions-div col-sm-12">
+            <div id="trivia-question-0">  </div>
+                <div class="choices-div" id="choices-0"></div>
+            <div id="trivia-question-1"></div>   
+                <div class="choices-div" id="choices-1"></div>
+            <div id="trivia-question-2"></div>
+                <div class="choices-div" id="choices-2"></div>
+            <div id="trivia-question-3"></div>
+                <div class="choices-div" id="choices-3"></div>
+            <div id="trivia-question-4"></div>
+                <div class="choices-div" id="choices-4"></div>
+            <div id="trivia-question-5"></div>
+                <div class="choices-div" id="choices-5"></div>
+            <div id="trivia-question-6"></div>
+                <div class="choices-div" id="choices-6"></div>
+            <div id="trivia-question-7"></div>
+                <div class="choices-div" id="choices-7"></div>
+        </div>  
+    </div>
+</div>
+    <div id="timer"></div>
+    <img class="lightsaber-1" src="./assets/images/lightsaber-hilt.png" alt="lightsaber hilt">
+    <img class="lightsaber-2" src="./assets/images/lightsaber-blade.png" alt="lightsaber blade">
+    
+<script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="./assets/javascript/game.js" ></script>
+</body>
+</html>
